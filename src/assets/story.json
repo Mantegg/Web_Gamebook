@@ -1,0 +1,199 @@
+{
+  "pages": [
+    {
+        "id": 1,
+        "text": "\tNight hung heavy over the city, the kind of night where the air felt thick with static and even the streetlights buzzed like old, dying electronics. In the cluttered, one-room apartment where you lived — a space barely large enough for your bed, work desk, and a shelf of forgotten toy figures — the glow of your ExeRiser cut through the darkness.\n\nA low, eerie hum vibrated against the tabletop as the device flickered to life without warning. Its screen distorted, lines of code cascading in broken loops until a flickering hologram burst from its surface. The image was fractured, barely holding shape, but the voice was unmistakably human — desperate, ragged.\n\n'HELP ME… DIVE INTO THE CUBE…' it pleaded, before dissolving into static and a pulse of light that cast long shadows across the walls. You stared at the device, your heart pounding in your chest. You could almost feel the gravity of whatever this was pulling at you, an ancient call buried deep in the network's bones. What do you do?",
+        "choices": [
+            { "text": "Accept the call", "nextPageId": 2 },
+            { "text": "Ignore it and go back to bed", "nextPageId": 3 },
+            { "text": "Try to analyze the hologram", "nextPageId": 26 }
+        ]
+    },
+    {
+      "id": 3,
+      "text": "You decide this is above your pay grade. The hologram fades, and your ExeRiser locks itself permanently. The end.",
+      "choices": []
+    },
+    {
+      "id": 2,
+      "text": "Your vision distorts as you’re sucked into the holographic void. You land in a digital forest shimmering with code lines. A wild Execube appears: 'Bytefang' (Rank 1).",
+      "choices": [
+        { "text": "Engage in battle", "nextPageId": 4 },
+        { "text": "Attempt to escape", "nextPageId": 5 }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "You turn to run, but the digital terrain loops endlessly. You have no choice but to fight.",
+      "choices": [
+        { "text": "Prepare to fight", "nextPageId": 4 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "You ready your ExeRiser. Select your action:",
+      "choices": [
+        { "text": "Use 'Firewall Slash' Skill Card", "nextPageId": 6 },
+        { "text": "Attempt to Capture", "nextPageId": 7 },
+        { "text": "Defend", "nextPageId": 8 }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "You brace for Bytefang's attack. It uses 'Data Chomp'. Minimal damage taken. Your turn again.",
+      "choices": [
+        { "text": "Use 'Firewall Slash' Skill Card", "nextPageId": 6 },
+        { "text": "Attempt to Capture", "nextPageId": 7 }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "You throw a Data Capsule — Bytefang struggles…",
+      "choices": [
+        { "text": "Capture Successful!", "nextPageId": 9 },
+        { "text": "Capture Failed!", "nextPageId": 10 }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Bytefang captured! It joins your Execube library. You receive 5 Data Fragments.",
+      "choices": [
+        { "text": "Explore deeper into the forest", "nextPageId": 11 },
+        { "text": "Open your Execube library", "nextPageId": 12 }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Capture failed! Bytefang retaliates with 'Viral Bite'.",
+      "choices": [
+        { "text": "Counter with 'Firewall Slash'", "nextPageId": 6 },
+        { "text": "Defend", "nextPageId": 8 }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "You defeat Bytefang, earning 3 Data Fragments.",
+      "choices": [
+        { "text": "Explore deeper into the forest", "nextPageId": 11 },
+        { "text": "Check your Execube library", "nextPageId": 12 }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "You access your Execube library via your ExeRiser. Bytefang is now available. A new option unlocks: 'Cross Execute'.",
+      "choices": [
+        { "text": "Activate Cross Execute", "nextPageId": 13 },
+        { "text": "Close library and move on", "nextPageId": 11 }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "You and Bytefang fuse, your avatar taking on beast-like holographic armor. Power surges through you.",
+      "choices": [
+        { "text": "Test your new form", "nextPageId": 14 },
+        { "text": "Deactivate and move on", "nextPageId": 11 }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "The digital forest path forks into two: one bathed in crimson light, the other a shimmering neon blue.",
+      "choices": [
+        { "text": "Take the crimson path", "nextPageId": 15 },
+        { "text": "Take the neon blue path", "nextPageId": 16 }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "You walk into a corrupted data zone. Warning: High-level Execube detected: 'Viral Alpha' (Rank 3).",
+      "choices": [
+        { "text": "Fight Viral Alpha", "nextPageId": 17 },
+        { "text": "Retreat", "nextPageId": 11 }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "A serene code garden appears. You find a rare Skill Card: 'Data Surge'.",
+      "choices": [
+        { "text": "Add to your deck", "nextPageId": 18 },
+        { "text": "Leave it", "nextPageId": 11 }
+      ]
+    },
+    {
+      "id": 18,
+      "text": "Skill Card 'Data Surge' added to your deck.",
+      "choices": [
+        { "text": "Head back to path split", "nextPageId": 11 }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "You engage Viral Alpha. It's a tough fight. Use a strategy.",
+      "choices": [
+        { "text": "Use 'Data Surge'", "nextPageId": 19 },
+        { "text": "Cross Execute", "nextPageId": 19 },
+        { "text": "Defend and wait", "nextPageId": 20 }
+      ]
+    },
+    {
+      "id": 19,
+      "text": "You defeat Viral Alpha, securing a rare 'Core Fragment'. New path unlocked.",
+      "choices": [
+        { "text": "Advance to Core Nexus", "nextPageId": 21 }
+      ]
+    },
+    {
+      "id": 20,
+      "text": "Viral Alpha overwhelms you. The ExeRiser forcefully ejects you back to your apartment. Game over.",
+      "choices": []
+    },
+    {
+      "id": 21,
+      "text": "You reach the Core Nexus, a massive digital construct. A final voice calls: 'EXECUTE ME... OR FREE ME'.",
+      "choices": [
+        { "text": "Execute the Core Entity", "nextPageId": 22 },
+        { "text": "Free the Core Entity", "nextPageId": 23 }
+      ]
+    },
+    {
+      "id": 22,
+      "text": "The Core shatters, releasing massive data energy into you. You become the new Master of the ExeCube dimension. The end.",
+      "choices": []
+    },
+    {
+      "id": 23,
+      "text": "The Core is freed, restoring balance to the ExeCube dimension. You're hailed as a hero. The end.",
+      "choices": []
+    },
+    {
+      "id": 14,
+      "text": "In your Cross Execute form, you face a rogue Execube commander: 'Hexblade' (Rank 2).",
+      "choices": [
+        { "text": "Fight with all your power", "nextPageId": 24 },
+        { "text": "Attempt diplomacy", "nextPageId": 25 }
+      ]
+    },
+    {
+      "id": 24,
+      "text": "You defeat Hexblade and gain rare loot.",
+      "choices": [
+        { "text": "Continue to the Core Nexus", "nextPageId": 21 }
+      ]
+    },
+    {
+      "id": 25,
+      "text": "Hexblade agrees to guide you to the Core Nexus peacefully.",
+      "choices": [
+        { "text": "Follow Hexblade", "nextPageId": 21 }
+      ]
+    },
+    {
+    "id": 26,
+    "text": "The moment you cross the threshold of the holographic portal, the world around you unravels like a stream of collapsing code. Your apartment fades into a wash of pixels, replaced by a dense, alien landscape formed entirely of shimmering light and geometric shapes. Towering cube-shaped trees hover in mid-air, their branches made of intersecting data strings, while streams of raw code trickle like waterfalls between floating platforms.\n\nA soft hum vibrates in your ears, the very air alive with residual data. The colors here shift and flicker, impossible to name, each hue a reflection of a corrupted line of code. Ahead, a narrow path formed of suspended glass tiles leads deeper into the digital forest, vanishing into a thick fog of static. Somewhere within that mist, you sense something watching you — an ancient presence tangled within the network’s forgotten sectors.\n\nYour ExeRiser pulses at your side, its interface displaying a single message: 'WARNING: UNSTABLE DATA ZONE. PROCEED WITH CAUTION.' The edges of your vision blur, distant shapes materializing as vague figures — some hostile, some curious. Every instinct tells you to turn back, yet something deeper compels you forward. This place, for all its strangeness, feels… familiar.",
+    "choices": [
+        { "text": "Step onto the glass path", "nextPageId": 11 },
+        { "text": "Scan the surroundings", "nextPageId": 27 }
+        ]
+    }
+
+  ]
+}

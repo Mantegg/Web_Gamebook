@@ -1,0 +1,15 @@
+<div class="gamebook-container" *ngIf="currentPage">
+  <!-- <h1>{{ title }}</h1> -->
+  <div class="page-text" [innerHTML]="formatText(currentPage.text)"></div>
+
+  <div class="choices" *ngIf="currentPage.choices.length > 0">
+    <button *ngFor="let choice of currentPage.choices" (click)="goToPage(choice.nextPageId)" class="choice-btn">
+      {{ choice.text }}
+    </button>
+  </div>
+
+  <div *ngIf="currentPage.choices.length === 0" class="end-message">
+    <p><em>The End</em></p>
+    <button (click)="restart()" class="restart-btn">Restart</button>
+  </div>
+</div>

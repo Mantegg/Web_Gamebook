@@ -1,0 +1,116 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.gamebook-container {
+    position: absolute; /* Keeps it centered */
+    top: 50%; /* Vertical Center */
+    width: 100%; /* Allow full width on smaller screens */
+    max-width: 600px; /* Maintain max width on larger screens */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background: linear-gradient(135deg, #ea8566, #b925b9);
+    color: #eef2ff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    word-break: break-word;
+
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    text-shadow: 1px 1px 3px rgba(145, 75, 162, 0.8);
+}
+
+.page-text {
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    line-height: 1.7;
+    font-size: 1.25rem;
+    max-width: 100%;
+    max-height: 300px;
+    /* fixed height to limit the box */
+    overflow-y: auto;
+    /* enables vertical scrolling */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* slight background to distinguish box */
+    border-radius: 8px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.page-text p {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.choice-btn {
+    background-color: #e26720;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(142, 114, 220, 0.5);
+}
+
+.choice-btn:hover {
+    background-color: #a487e2;
+    box-shadow: 0 6px 12px rgba(164, 135, 226, 0.7);
+}
+
+.end-message {
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+.restart-btn {
+    margin-top: 15px;
+    background-color: #f6a821;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 22px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(246, 168, 33, 0.7);
+    transition: background-color 0.3s ease;
+}
+
+.restart-btn:hover {
+    background-color: #f9bf43;
+    box-shadow: 0 7px 14px rgba(249, 191, 67, 0.9);
+}
+
+.loading,
+.error {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 50px;
+    color: #ccc;
+    font-weight: 600;
+    font-style: italic;
+}
