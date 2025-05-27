@@ -1,11 +1,5 @@
 .gamebook-container {
-    
-    top: 50px; /* Vertical Center */
-    transform: translateY(50%); /* Adjust for precise centering */
-    width: 85%; /* Allow full width on smaller screens */
     max-width: 600px; /* Maintain max width on larger screens */
-    margin: auto;
-
     padding: 25px;
     background: linear-gradient(135deg, #ea8566, #b925b9);
     color: #eef2ff;
